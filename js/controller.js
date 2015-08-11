@@ -3384,7 +3384,7 @@ angular.module('CCCTwitterPi').
                 i = 0;
             }
             controller.twittertext = data.statuses[i].text;
-        }, 1000);
+        }, 5000);
         
     
 });
