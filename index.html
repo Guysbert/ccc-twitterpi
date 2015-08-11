@@ -1,16 +1,20 @@
 <!doctype html>
-	<html lang="en">
+	<html lang="en" ng-app="CCCTwitterPi">
 		<head>
 			<meta charset="utf-8" />
-			<title></title>
+			<title>ccc-twitterpi</title>
+
+			<script src="js/angular.min.js"></script>
+			<script src="js/module.js"></script>		
+			<script src="js/controller.js"></script>
 			<link rel="stylesheet" href="style.css" />
 			<!--[if IE]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
 		</head>
-		<body>
+		<body ng-controller="twitterpiController as controller">
  			<div>
- 				<p class="display">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed</p>
+ 				<p class="display">{{ controller.twittertext }}</p>
  			</div>
 		</body>
 	</html>
