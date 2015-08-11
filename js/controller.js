@@ -3374,7 +3374,7 @@ var data = {
 }
 
 angular.module('CCCTwitterPi').
-    controller('twitterpiController', function twitterpiController($interval){
+    controller('twitterpiController', function twitterpiController($interval, $http){
         var controller = this;
         var i = 0;
         controller.twittertext = data.statuses[i].text;
@@ -3386,5 +3386,8 @@ angular.module('CCCTwitterPi').
             controller.twittertext = data.statuses[i].text;
         }, 5000);
         
+        controller.updateTweets = function(){
+            alert('hello');
+        }
     
 });
