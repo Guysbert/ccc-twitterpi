@@ -7,8 +7,11 @@ It runs on localhost:5000. That's why that address is used in the controller. If
 
     [
       {
-        "user": "foo",
+        "user": "@foo",
         "text": "bar"
-      }
+      },
+      {
+        "user": "@captain_obvious",
+        "text": "#cccamp15 is awesome"
     ]
   
