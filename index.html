@@ -6,6 +6,7 @@
 
 			<script src="js/angular.min.js"></script>
 			<script src="js/module.js"></script>		
+			<script src="js/service.js"></script>
 			<script src="js/controller.js"></script>
 			<link rel="stylesheet" href="css/style.css" />
 			<!--[if IE]>
@@ -13,9 +14,9 @@
 			<![endif]-->
 		</head>
 		<body ng-controller="twitterpiController as controller">
- 			<div>
- 				<p class="display">{{ controller.twittertext }}</p>
- 				<button ng-click="controller.updateTweets()">update</button>
+ 			<div class="display">
+ 				<p class="user">{{ controller.user }} twittert:</<p>
+ 				<p class="tweet">{{ controller.tweet }}</p>
  			</div>
 		</body>
 	</html>
