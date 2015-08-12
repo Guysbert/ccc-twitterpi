@@ -5,8 +5,12 @@ angular.module('CCCTwitterPi').
         var data = 
         [
             {
-                "user": "foo",
-                "text": "bar"
+                "user": "@minion",
+                "text": "Minions ipsum pepete tulaliloo jiji jeje. Aaaaaah hana dul sae belloo! Aaaaaah. Hana dul sae poopayee poulet tikka masala belloo! Bee do bee"
+            },
+            {
+                "user": "@captain_obvious",
+                "text": "#cccamp15 is great"
             }
         ];
         var getData = function(){
