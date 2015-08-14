@@ -15,8 +15,9 @@
 		</head>
 		<body ng-controller="twitterpiController as controller">
  			<div class="display">
- 				<p class="user">{{ controller.user }} twittert:</<p>
- 				<p class="tweet">{{ controller.tweet }}</p>
+ 				<p class="user">{{ controller.user }}</<p>
+ 				<p class="tweet" ng-show="controller.tweet">{{ controller.tweet }}</p>
+ 				<p class="tweet" ng-show="controller.tweetimage"><img class="tweetimg" ng-src="{{ controller.tweetimage }}" /></p>
  			</div>
 		</body>
 	</html>

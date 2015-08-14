@@ -1,15 +1,40 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #e4ab50;
+}
+
 .display {
-	padding-top:0px;
-	margin-top:-10px;
+	padding:0px;
+	margin: 0px;
 	width:400px;
 	height:320px;
-	text-align:justify;
+	font-family: sans-serif;
+	background-image: url(../img/ccc-logo.png);
+	background-repeat: no-repeat;
+	background-size: 30%;
 }
 
 .user{
+	margin: 0px;
+	padding: 0px;
 	font-size:1.8em;
+	padding-left: 130px;
+	height: 37px;
+	padding-top: 3px;
 }
 
 .tweet{
-	font-size:2.0em;
+	height: 280px;
+	margin: 0px;
+	margin-bottom: 5px
+	padding: 0px;
+	font-size:1.9em;
+	background-color: #829a40;
+	color: fff;
+}
+
+.tweetimg{
+	max-width:100%;
+	max-height:100%;
 }
